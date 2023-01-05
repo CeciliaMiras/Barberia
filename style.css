@@ -1,0 +1,295 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #888888;
+}
+
+header {
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blue;
+    text-decoration: underline;
+
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.productos li:hover {
+    border-color: blue;
+}
+
+.productos li:hover h2 {
+    font-size: 40px;
+}
+
+.productos li:active {
+    border-color: aqua;
+}
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url(../HTML5YCSS/imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+
+
+
+form {
+    margin: 60px;
+    background-color: #888888;
+}
+.formulario{
+    background-color: #888888;
+}
+
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+
+form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    /*40porciento del area disponible que tenemos*/
+    padding: 15px 0;
+    /*15 para arriba y para abajo y cero a los laterales*/
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    /*color de la letra que sea blanca*/
+    background-color: lightcoral;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    /*demora en cambiar un segundo el color del boton*/
+    cursor: pointer;
+    /*la manito en el cursor*/
+}
+
+/*darle un destaque cuando pasamos el mause por el botor*/
+.enviar:hover {
+    background: darkgray;
+    transform: scale(1.2) rotate(70deg);
+    /*aumenta en 1.20 el boton cdo pasamos el mause y rotalo 70 grados*/
+
+}
+
+table {
+    margin: 40px 40px;
+}
+
+thead {
+    background: #555555;
+    /*fondo color plomo*/
+    color: white;
+    /*cambiamos color a la letra*/
+    font-weight: bold;
+}
+
+
+th {
+    border: 1px solid #000000;
+    padding: 8px 5px;
+}
+
+/*css para nuestra pagina inicial*/
+.banner {
+   
+    width: 100%;
+}
+.principal{
+   
+
+    padding: 3em 0;
+    background:#e3dfdf
+}
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0 1em;
+    clear: left;
+   
+
+
+}
+.titulo-principal:first-letter{
+    font-weight: bold;
+}
+.titulo-principal::before{
+    content: """";
+}
+.titulo-principal::after{
+    content: """ ";
+}
+p:first-line{
+    font-style: italic;
+}
+
+.principal p {
+    margin: 0 0 1em;
+
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;/*coloca la lista arriba*/
+}
+.items{
+    line-height: 1.5;/*se agranda el 1.5 tamaño de nuestra fuente y los espacios entre li*/
+}
+.items:first-child{
+    font-weight: bold;
+}
+.items::before{
+    content:"✯";
+}
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(rgb(186, 182, 182),rgb(47, 47, 95))
+}
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+.diferenciales{
+    background: #888888;
+    padding: 3em 0;
+    
+}
+.untensillo {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imagenDiferecial {
+    width: 60%;
+     transition: 400ms;
+     box-shadow: 10px 10px 30px 15px rgb(43, 38, 49);
+
+}
+.imagenDiferecial:hover{
+    opacity: 0.3;
+   
+}
+.video{
+    width: 560px;/*para que div tenga la misma anchura que el video*/
+    margin: 1em auto;
+}
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+        width: auto;
+    }
+    .lista-diferenciales, .imagenDiferecial{
+        width: 100%;
+    }
+
+}
