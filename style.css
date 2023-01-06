@@ -88,7 +88,7 @@ nav {
 
 footer {
     text-align: center;
-    background: url(../HTML5YCSS/imagenes/bg.jpg);
+    background-color: black;
     padding: 40px;
 }
 
@@ -142,7 +142,7 @@ form legend {
     font-weight: bold;
     color: white;
     /*color de la letra que sea blanca*/
-    background-color: lightcoral;
+    background-color:#4d4985;
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -154,7 +154,7 @@ form legend {
 /*darle un destaque cuando pasamos el mause por el botor*/
 .enviar:hover {
     background: darkgray;
-    transform: scale(1.2) rotate(70deg);
+    transform: scale(1.2);
     /*aumenta en 1.20 el boton cdo pasamos el mause y rotalo 70 grados*/
 
 }
@@ -265,7 +265,7 @@ p:first-line{
 }
 
 .imagenDiferecial {
-    width: 60%;
+    width: 30%;
      transition: 400ms;
      box-shadow: 10px 10px 30px 15px rgb(43, 38, 49);
 
